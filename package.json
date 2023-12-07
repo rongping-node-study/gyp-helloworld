@@ -1,0 +1,7 @@
+{
+    "scripts": {
+        "build": "node-gyp configure && node-gyp build",
+        "xcode": "node-gyp configure --debug -- -f xcode && node-gyp build",
+        "run:demo": "node index.js"
+    }
+}

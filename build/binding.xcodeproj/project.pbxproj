@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2C9540939DD6FDCA60F3B2E /* hello_world.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4F0ABB3AEF898F5021CA698F /* hello_world.cc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C34FA945F9C6194D6B03554 /* addon.gypi */ = {isa = PBXFileReference; explicitFileType = sourcecode; name = addon.gypi; path = "../../../.nvm/versions/node/v16.17.0/lib/node_modules/npm/node_modules/node-gyp/addon.gypi"; sourceTree = "<group>"; };
+		4F0ABB3AEF898F5021CA698F /* hello_world.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hello_world.cc; sourceTree = "<group>"; };
+		5994D4CAAF6CF72A4AD8621C /* binding.gyp */ = {isa = PBXFileReference; explicitFileType = sourcecode; path = binding.gyp; sourceTree = "<group>"; };
+		86DA05936966AB7017271718 /* config.gypi */ = {isa = PBXFileReference; explicitFileType = sourcecode; name = config.gypi; path = build/config.gypi; sourceTree = "<group>"; };
+		A03E1D9B6DB47C7B72D8EAE4 /* common.gypi */ = {isa = PBXFileReference; explicitFileType = sourcecode; name = common.gypi; path = "../../../Library/Caches/node-gyp/16.17.0/include/node/common.gypi"; sourceTree = "<group>"; };
+		B33353B9514827BD3882A68C /* hello_world.node */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = hello_world.node; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C9F94836FC550CADDD5B460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		319648087C4DD72A27DC09CE /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4F0ABB3AEF898F5021CA698F /* hello_world.cc */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		38885F38CBC875FB50D53A58 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				4C34FA945F9C6194D6B03554 /* addon.gypi */,
+				5994D4CAAF6CF72A4AD8621C /* binding.gyp */,
+				A03E1D9B6DB47C7B72D8EAE4 /* common.gypi */,
+				86DA05936966AB7017271718 /* config.gypi */,
+			);
+			name = Build;
+			sourceTree = "<group>";
+		};
+		444C2083BC4BF4A72E8EB7B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B33353B9514827BD3882A68C /* hello_world.node */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE1625FFB3C961F8F90D7E10 = {
+			isa = PBXGroup;
+			children = (
+				319648087C4DD72A27DC09CE /* Source */,
+				444C2083BC4BF4A72E8EB7B3 /* Products */,
+				38885F38CBC875FB50D53A58 /* Build */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FAE479886F9F335C62D1EA4 /* hello_world */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB903929AC997B4499B3C71C /* Build configuration list for PBXNativeTarget "hello_world" */;
+			buildPhases = (
+				92460E1A81A71C066148FA4A /* Sources */,
+				5C9F94836FC550CADDD5B460 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hello_world;
+			productName = hello_world;
+			productReference = B33353B9514827BD3882A68C /* hello_world.node */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35108566DD7B7EB466D59581 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 4C650493AFEDDCC6E69C8CC5 /* Build configuration list for PBXProject "binding" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = CE1625FFB3C961F8F90D7E10;
+			projectDirPath = ..;
+			projectRoot = "";
+			targets = (
+				2FAE479886F9F335C62D1EA4 /* hello_world */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92460E1A81A71C066148FA4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C9540939DD6FDCA60F3B2E /* hello_world.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6E6920ED8E0647812495A381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
+				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
+			};
+			name = Debug;
+		};
+		D6739C3D31D92F0D8146D4D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EXECUTABLE_EXTENSION = node;
+				EXECUTABLE_PREFIX = "";
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"NODE_GYP_MODULE_NAME=hello_world",
+					"USING_UV_SHARED=1",
+					"USING_V8_SHARED=1",
+					"V8_DEPRECATION_WARNINGS=1",
+					V8_DEPRECATION_WARNINGS,
+					V8_IMMINENT_DEPRECATION_WARNINGS,
+					"_GLIBCXX_USE_CXX11_ABI=1",
+					"_DARWIN_USE_64_BIT_INODE=1",
+					_LARGEFILE_SOURCE,
+					"_FILE_OFFSET_BITS=64",
+					OPENSSL_NO_PINSHARED,
+					OPENSSL_THREADS,
+					BUILDING_NODE_EXTENSION,
+					DEBUG,
+					_DEBUG,
+					V8_ENABLE_CHECKS,
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"/Users/momo/Library/Caches/node-gyp/16.17.0/include/node",
+					"/Users/momo/Library/Caches/node-gyp/16.17.0/src",
+					"/Users/momo/Library/Caches/node-gyp/16.17.0/deps/openssl/config",
+					"/Users/momo/Library/Caches/node-gyp/16.17.0/deps/openssl/openssl/include",
+					"/Users/momo/Library/Caches/node-gyp/16.17.0/deps/uv/include",
+					"/Users/momo/Library/Caches/node-gyp/16.17.0/deps/zlib",
+					"/Users/momo/Library/Caches/node-gyp/16.17.0/deps/v8/include",
+				);
+				MACH_O_TYPE = mh_bundle;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				OTHER_CFLAGS = "-fno-strict-aliasing";
+				OTHER_LDFLAGS = (
+					"-undefined dynamic_lookup",
+					"-Wl,-search_paths_first",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = hello_world;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wendif-labels",
+					"-W",
+					"-Wno-unused-parameter",
+				);
+			};
+			name = Debug;
+		};
+		E0354CC810BF9B466DFBFC93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EXECUTABLE_EXTENSION = node;
+				EXECUTABLE_PREFIX = "";
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"NODE_GYP_MODULE_NAME=hello_world",
+					"USING_UV_SHARED=1",
+					"USING_V8_SHARED=1",
+					"V8_DEPRECATION_WARNINGS=1",
+					V8_DEPRECATION_WARNINGS,
+					V8_IMMINENT_DEPRECATION_WARNINGS,
+					"_GLIBCXX_USE_CXX11_ABI=1",
+					"_DARWIN_USE_64_BIT_INODE=1",
+					_LARGEFILE_SOURCE,
+					"_FILE_OFFSET_BITS=64",
+					OPENSSL_NO_PINSHARED,
+					OPENSSL_THREADS,
+					BUILDING_NODE_EXTENSION,
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"/Users/momo/Library/Caches/node-gyp/16.17.0/include/node",
+					"/Users/momo/Library/Caches/node-gyp/16.17.0/src",
+					"/Users/momo/Library/Caches/node-gyp/16.17.0/deps/openssl/config",
+					"/Users/momo/Library/Caches/node-gyp/16.17.0/deps/openssl/openssl/include",
+					"/Users/momo/Library/Caches/node-gyp/16.17.0/deps/uv/include",
+					"/Users/momo/Library/Caches/node-gyp/16.17.0/deps/zlib",
+					"/Users/momo/Library/Caches/node-gyp/16.17.0/deps/v8/include",
+				);
+				MACH_O_TYPE = mh_bundle;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				OTHER_CFLAGS = "-fno-strict-aliasing";
+				OTHER_LDFLAGS = (
+					"-undefined dynamic_lookup",
+					"-Wl,-search_paths_first",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = hello_world;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wendif-labels",
+					"-W",
+					"-Wno-unused-parameter",
+				);
+			};
+			name = Release;
+		};
+		F0FE067650554857AB1E411A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
+				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C650493AFEDDCC6E69C8CC5 /* Build configuration list for PBXProject "binding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0FE067650554857AB1E411A /* Release */,
+				6E6920ED8E0647812495A381 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Release;
+		};
+		FB903929AC997B4499B3C71C /* Build configuration list for PBXNativeTarget "hello_world" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0354CC810BF9B466DFBFC93 /* Release */,
+				D6739C3D31D92F0D8146D4D6 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35108566DD7B7EB466D59581 /* Project object */;
+}
